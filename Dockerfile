@@ -8,5 +8,6 @@ RUN mkdocs build
 FROM nginx
 
 COPY --from=builder /docs/site  /usr/share/nginx/html
+RUN mkdir -p  /var/log/nginx/
 
 EXPOSE 80
