@@ -8,6 +8,7 @@ pages:
     - Docker: docker.md
     - Git: git.md
     - Cloud: cloud.md
+    - Tools: tools.md
 
 theme:
   name: 'material'
