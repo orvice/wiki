@@ -4,6 +4,8 @@ site_name: orvice's wiki
 pages:
     - Home: index.md
     - Debian: debian.md
+    - Docker: docker.md
+    - Git: git.md
     - Cloud: cloud.md
 
 theme:
